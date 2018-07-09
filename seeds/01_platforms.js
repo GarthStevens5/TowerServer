@@ -33,7 +33,7 @@ module.exports.seed = (knex, Promise) => {
         { id: 29, name: 'PC', manufacturer: 'Microsoft' },
         { id: 30, name: 'Atari 2600', manufacturer: 'Atari' },
         { id: 31, name: 'Atari 5200', manufacturer: 'Atari' },
-        { id: 32, name: 'Arari 7800', manufacturer: 'Atari' },
+        { id: 32, name: 'Atari 7800', manufacturer: 'Atari' },
         { id: 33, name: 'Atari Jaguar', manufacturer: 'Atari' },
         { id: 34, name: 'Atari Lynx', manufacturer: 'Atari' },
         { id: 35, name: 'Atari VCS', manufacturer: 'Atari' },
