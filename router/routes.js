@@ -31,7 +31,7 @@ router.put("/games/:id", (req, res, next) => {
 
 router.delete("/games/delete/:id", (req, res, next) => {
   queries.deleteGame(req.params.id)
-    .then(() => {
+    .then((deleted) => {
       res.status(204).json({deleted: true})
   })
   .catch(next)
