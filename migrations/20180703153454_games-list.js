@@ -5,7 +5,7 @@ exports.up = function(knex, Promise) {
     games.text('title')
     games.text('dev')
     games.text('physOrDigi')
-    games.integer('platform_id').references('platform.id')
+    games.integer('platform_id').references('platform.id').onDelete('CASCADE')
   })
 }
 
